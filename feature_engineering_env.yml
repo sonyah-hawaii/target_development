@@ -1,4 +1,4 @@
-##run this file by typing the command conda env create -f feature_engineering.yml
+##run this file by typing the command conda env create -f feature_engineering_env.yml
 
 name: feature_engineering_env
 dependencies:
@@ -8,8 +8,7 @@ dependencies:
   - jupyter
   - seaborn
   - matplotlib
+  - scipy
+  - statsmodels
   - scikit-learn
-  - requests
-  - json-c
-  - beautifulsoup4
   - flask
